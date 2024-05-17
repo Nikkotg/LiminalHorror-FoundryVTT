@@ -115,7 +115,7 @@
 }
 
 /* /1* Styles limited to intotheodd sheets *1/ */
-.intotheodd .item-form {
+.liminalhorror .item-form {
   font-family: "Roboto", sans-serif;
 }
 
@@ -139,7 +139,7 @@
 /*   margin-bottom: 10px; */
 /* } */
 
-.intotheodd .sheet-header .profile-img {
+.liminalhorror .sheet-header .profile-img {
   height: 165px;
   margin-right: 10px;
 }
@@ -163,102 +163,102 @@
 /*   margin: 0; */
 /* } */
 
-.intotheodd .sheet-tabs {
+.liminalhorror .sheet-tabs {
   -webkit-box-flex: 0;
   -ms-flex: 0;
   flex: 0;
 }
 
-.intotheodd .sheet-tabs-container {
+.liminalhorror .sheet-tabs-container {
   -webkit-box-flex: 0;
   -ms-flex: 0;
   flex: 0;
 }
 
-.intotheodd .sheet-body,
-.intotheodd .sheet-body .tab,
-.intotheodd .sheet-body .tab .editor {
+.liminalhorror .sheet-body,
+.liminalhorror .sheet-body .tab,
+.liminalhorror .sheet-body .tab .editor {
   height: 100%;
 }
 
-.intotheodd .tox .tox-editor-container {
+.liminalhorror .tox .tox-editor-container {
   background: #fff;
 }
 
-.intotheodd .tox .tox-edit-area {
+.liminalhorror .tox .tox-edit-area {
   padding: 0 8px;
 }
 
-.intotheodd .checkbox-block {
+.liminalhorror .checkbox-block {
   display: block;
 }
 
-.intotheodd .editor {
+.liminalhorror .editor {
   height: 100%;
 }
 
-.intotheodd .resource-label {
+.liminalhorror .resource-label {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.intotheodd .tabs {
+.liminalhorror .tabs {
   height: 40px;
   border-top: 1px solid #AAA;
   border-bottom: 1px solid #AAA;
 }
 
-.intotheodd .tabs .item {
+.liminalhorror .tabs .item {
   line-height: 40px;
   font-weight: bold;
 }
 
-.intotheodd .tabs .item.active {
+.liminalhorror .tabs .item.active {
   text-decoration: underline;
   text-shadow: none;
 }
 
-.intotheodd .items-list {
+.liminalhorror .items-list {
   list-style: none;
   margin: 7px 0;
   padding: 0;
   overflow-y: auto;
 }
 
-.intotheodd .items-list .item-header {
+.liminalhorror .items-list .item-header {
   font-weight: bold;
 }
 
-.intotheodd .items-list .item {
+.liminalhorror .items-list .item {
   height: 30px;
   line-height: 24px;
   padding: 3px 0;
   border-bottom: 1px solid #BBB;
 }
 
-.intotheodd .items-list .item .item-image {
+.liminalhorror .items-list .item .item-image {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 24px;
   flex: 0 0 24px;
   margin-right: 5px;
 }
 
-.intotheodd .items-list .item img {
+.liminalhorror .items-list .item img {
   display: block;
 }
 
-.intotheodd .items-list .item-name {
+.liminalhorror .items-list .item-name {
   margin: 0;
 }
 
-.intotheodd .items-list .item-controls {
+.liminalhorror .items-list .item-controls {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 86px;
   flex: 0 0 86px;
   text-align: right;
 }
 
-.intotheodd .items-list .item-info {
+.liminalhorror .items-list .item-info {
   margin-left: 4px;
   border-style: solid;
   border-width: thin;
@@ -269,7 +269,7 @@
   padding-bottom: 2px;
 }
 
-.intotheodd .items-list .clickable {
+.liminalhorror .items-list .clickable {
   background-color: darkred;
   color: white;
 }
