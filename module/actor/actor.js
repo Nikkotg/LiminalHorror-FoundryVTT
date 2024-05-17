@@ -2,7 +2,7 @@
  * Extend the base Actor entity by defining a custom roll data structure which is ideal for the Simple system.
  * @extends {Actor}
  */
-export class IntoTheOddActor extends Actor {
+export class LiminalHorrorActor extends Actor {
 
   /**
    * Augment the basic actor data with additional dynamic data.
@@ -49,7 +49,7 @@ export class IntoTheOddActor extends Actor {
     if (full) {
       this.system.abilities.dex.value = this.system.abilities.dex.max;
       this.system.abilities.str.value = this.system.abilities.str.max;
-      this.system.abilities.wil.value = this.system.abilities.wil.max;
+      this.system.abilities.con.value = this.system.abilities.con.max;
     }
   }
 }
