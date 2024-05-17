@@ -1,7 +1,7 @@
 {
-  "id": "intotheodd",
-  "title": "Into the Odd",
-  "description": "The Into the Odd system for FoundryVTT!",
+  "id": "liminalhorror",
+  "title": "Liminal Horror",
+  "description": "The Liminal Horror Game for FoundryVTT!",
   "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "10",
@@ -15,16 +15,19 @@
     {
       "name": "Kristov"
     }
+    {  
+      "name": "Nikkotg"
+    }
   ],
-  "esmodules": ["module/intotheodd.js"],
-  "styles": ["css/intotheodd.css"],
+  "esmodules": ["module/liminalhorror.js"],
+  "styles": ["css/liminalhorror.css"],
   "scripts": [],
   "packs": [
     {
-      "name": "into-the-odd-macros",
-      "label": "Macros for playing Into the Odd",
-      "system": "intotheodd",
-      "path": "./packs/into-the-odd-macros.db",
+      "name": "liminal-horror-macros",
+      "label": "Macros for playing Liminal Horror",
+      "system": "liminalhorror",
+      "path": "./packs/liminal-horror-macros.db",
       "type": "Macro"
     }
   ],
