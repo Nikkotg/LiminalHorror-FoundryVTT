@@ -4,7 +4,7 @@ This project enables you to play [this game](https://goblinarchives.itch.io/limi
 
 ## Installation
 
-Manifest URL: https://github.com/Nikkotg/LiminalHorror-FoundryVTT/releases/download/Conversion/system.json
+Manifest URL: https://github.com/Nikkotg/LiminalHorror-FoundryVTT/blob/master/system.json
 
 follow [this guide](https://foundryvtt.com/article/installation/#system) to install game systems in Foundry VTT.
 
