@@ -2,12 +2,12 @@
  * Extend the basic ItemSheet with some very simple modifications
  * @extends {ItemSheet}
  */
-export class IntoTheOddItemSheet extends ItemSheet {
+export class LiminalHorrorItemSheet extends ItemSheet {
 
   /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      classes: ["intotheodd", "sheet", "item"],
+      classes: ["liminalhorror", "sheet", "item"],
       width: 420,
       height: 320
     });
@@ -15,7 +15,7 @@ export class IntoTheOddItemSheet extends ItemSheet {
 
   /** @override */
   get template() {
-    const path = "systems/intotheodd/templates/item";
+    const path = "systems/liminalhorror/templates/item";
     // Return a single sheet for all item types.
     return `${path}/item-sheet.html`;
     // Alternatively, you could use the following return statement to do a
