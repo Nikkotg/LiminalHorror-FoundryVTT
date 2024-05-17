@@ -1,11 +1,11 @@
 // Import Modules
-import { IntoTheOddActor } from "./actor/actor.js";
-import { IntoTheOddActorSheet } from "./actor/actor-sheet.js";
-import { IntoTheOddItem } from "./item/item.js";
-import { IntoTheOddItemSheet } from "./item/item-sheet.js";
+import { LiminalHorrorActor } from "./actor/actor.js";
+import { LiminalHorrorActorSheet } from "./actor/actor-sheet.js";
+import { LiminalHorrorItem } from "./item/item.js";
+import { LiminalHorrorItemSheet } from "./item/item-sheet.js";
 
 Hooks.once('ready', async function() {
-  if (game.user.isGM && game.settings.get('intotheodd', 'showInitiativeHelp') === true) {
+  if (game.user.isGM && game.settings.get('liminalhorror', 'showInitiativeHelp') === true) {
     alert(
       'To the GM from the game-system developer:\n\n' +
 
@@ -15,15 +15,15 @@ Hooks.once('ready', async function() {
 
       'This message will only appear once (but can be reset in system settings).'
     )
-    game.settings.set('intotheodd', 'showInitiativeHelp', false)
+    game.settings.set('liminalhorror', 'showInitiativeHelp', false)
   }
 });
 
 Hooks.once('init', async function() {
 
-  game.intotheodd = {
-    IntoTheOddActor,
-    IntoTheOddItem
+  game.liminalhorror = {
+    LiminalHorrorActor,
+    LiminalHorrorItem
   };
 
   /**
@@ -36,16 +36,16 @@ Hooks.once('init', async function() {
   };
 
   // Define custom Entity classes
-  CONFIG.Actor.documentClass = IntoTheOddActor;
-  CONFIG.Item.documentClass = IntoTheOddItem;
+  CONFIG.Actor.documentClass = LiminalHorrorActor;
+  CONFIG.Item.documentClass = LiminalHorrorItem;
 
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("intotheodd", IntoTheOddActorSheet, { types: ["character"], makeDefault: true });
+  Actors.registerSheet("liminalhorror", LiminalHorrorActorSheet, { types: ["character"], makeDefault: true });
   Items.unregisterSheet("core", ItemSheet);
-  Items.registerSheet("intotheodd", IntoTheOddItemSheet, { types: ["item"], makeDefault: true });
+  Items.registerSheet("liminalhorror", LiminalHorrorItemSheet, { types: ["item"], makeDefault: true });
 
-  game.settings.register('intotheodd', 'showInitiativeHelp', {
+  game.settings.register('liminalhorror', 'showInitiativeHelp', {
     name: 'Show initiative helptext on next startup',
     hint: 'This option only exists so the helptext won\'t appear on every startup.\n' +
     'When the message appears, this option will uncheck itself.',
