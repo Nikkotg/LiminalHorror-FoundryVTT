@@ -2,7 +2,7 @@
   "id": "liminalhorror",
   "title": "Liminal Horror",
   "description": "The Liminal Horror Game for FoundryVTT!",
-  "version": "#{VERSION}#",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "10",
     "verified": "11"
