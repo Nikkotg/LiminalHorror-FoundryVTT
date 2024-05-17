@@ -2,13 +2,13 @@
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
  */
-export class IntoTheOddActorSheet extends ActorSheet {
+export class LiminalHorrorActorSheet extends ActorSheet {
 
   /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      classes: ["intotheodd", "sheet", "actor"],
-      template: "systems/intotheodd/templates/actor/actor-sheet.html",
+      classes: ["liminalhorror", "sheet", "actor"],
+      template: "systems/liminalhorror/templates/actor/actor-sheet.html",
       width: 500,
       height: 500,
       tabs: [
